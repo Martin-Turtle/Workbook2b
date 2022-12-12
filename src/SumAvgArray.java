@@ -7,7 +7,7 @@ public class SumAvgArray {
         numbers = new int[]{2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
 
         for (int i : numbers) {
-            sum += (sum + numbers[i]);
+            sum = (sum + numbers[i]);
             System.out.println(sum);
 
         /* use for loop  or for each loop to call the array and add them together
